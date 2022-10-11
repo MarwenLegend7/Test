@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet" />
-    
 
     <title>Marwen Legend</title>
   </head>
@@ -17,15 +16,15 @@
     </header>
 
     <main>
-      <div class="topnav">
-        <a class="active" href="#home">Home</a>
+      <div class="topnav" id="nav">
+        <a class="active" href="#nav">Home</a>
         <a href="#about">About</a>
-        <a href="#resume">resume</a>
+        <a href="#work">work</a>
         <a href="#resume">resume</a>
         <a href="#contact">Contact</a>
       </div>
       <br />
-      <h3>About me:</h3>
+      <h3 id="about">About me:</h3>
       <form>
         <textarea name="message" rows="6" cols="30">
 I'm a Legend 
@@ -39,14 +38,14 @@ Jk i'm just a Learner a Life Long Learner ^_^ .
           <source src="BMS.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <h3>Work:</h3>
+        <h3 id="work">Work:</h3>
         <input type="checkbox" id="w1" name="w1" value="Dev" />
         <label for="w1"> I'm a Dev</label><br />
         <input type="checkbox" id="w2" name="w2" value="Coach" />
         <label for="w2"> I'm a Life Coach</label><br />
         <input type="checkbox" id="w3" name="w3" value="Gamer" />
         <label for="w3"> I'm a Gamer</label>
-        <h3>Resume:</h3>
+        <h3 id="resume">Resume:</h3>
         <img
           src="CV.PNG"
           alt="No CV Yet LOL or is It ?!"
@@ -59,13 +58,12 @@ Jk i'm just a Learner a Life Long Learner ^_^ .
 
     <footer>
       <div>
-        <h5>Contact:</h5>
+        <h5 id="contact">Contact:</h5>
         <ul>
-          <li class="facebook"><a href="#">Facebook</a></li>
-          <li class="facebook"><a href="#">Website</a></li>
-          <li class="facebook"><a href="#">Linkedin</a></li>
+          <li class="facebook">Facebook</li>
+          <li class="facebook">Website</li>
+          <li class="facebook">Linkedin</li>
         </ul>
-        <a href="#">@2021 all Copy.Right'7' Reserved</a>
       </div>
     </footer>
   </body>
